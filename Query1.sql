@@ -2,6 +2,6 @@
 
 CREATE TABLE MusicVideo (
     trackId INTEGER PRIMARY KEY,
-    videoDirector TEXT,
-    FOREIGN KEY (TrackId) REFERENCES Track(TrackId)
+    musicvideo_id INTEGER PRIMARY KEY AUTOINCREMENT REFERENCES Track(TrackId),
+    director TEXT,
 );
