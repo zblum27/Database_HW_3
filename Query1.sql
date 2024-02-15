@@ -1,7 +1,7 @@
 -- Create a new Table Music Video
 
 CREATE TABLE MusicVideo (
-    TrackId INTEGER PRIMARY KEY,
-    VideoDirector TEXT,
+    trackId INTEGER PRIMARY KEY,
+    videoDirector TEXT,
     FOREIGN KEY (TrackId) REFERENCES Track(TrackId)
 );
