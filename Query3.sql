@@ -3,3 +3,5 @@ INSERT INTO musicVideo (director)
 SELECT DISTINCT Name AS director
 FROM artist
 WHERE Name = 'Voodoo';
+SELECT * FROM musicVideo;
+

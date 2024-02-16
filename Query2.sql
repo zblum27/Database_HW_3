@@ -4,3 +4,4 @@ INSERT INTO MusicVideo (musicVideo, VideoDirector)
  FROM tracks
  LIMIT
  10;
+ SELECT * FROM MusicVideo;
